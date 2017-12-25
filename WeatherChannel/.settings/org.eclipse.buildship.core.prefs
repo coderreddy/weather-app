@@ -1,0 +1,8 @@
+#Sat Dec 16 19:55:17 EST 2017
+connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
+override.workspace.settings=true
+auto.sync=false
+gradle.user.home=/Users/krishnakanthmedipally/Desktop/Misc/gradle-4.4/bin
+connection.project.dir=
+offline.mode=false
+build.scans.enabled=false

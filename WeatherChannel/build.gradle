@@ -1,0 +1,23 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.9.RELEASE'
+    id 'java'
+}
+
+
+jar {
+    baseName = 'myproject'
+    version =  '0.0.1-SNAPSHOT'
+}
+
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    //compile("org.springframework.boot:spring-boot-starter-web")
+    compile('com.sun.jersey:jersey-archive:1.0.3')
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+    compile group: 'org.springframework', name: 'spring-web', version: '3.0.2.RELEASE'
+    //testCompile("org.springframework.boot:spring-boot-starter-test")
+}

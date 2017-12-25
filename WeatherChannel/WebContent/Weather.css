@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+/*
+.location-name {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }
+  
+  .location-region {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color:  green; }
+  
+    .location-country {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }
+  
+    .location-lat {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }
+  
+    .location-lon {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }
+  
+    .location-tz_id {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }
+  
+    .location-localtime_epoch {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }
+  
+   .location-localtime {
+  float: left;
+  width: 120px;
+  height: 40px;
+  margin: 10px 10px 0;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+  background-color: green; }*/
+  
+  div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border: 25px solid green;
+  padding: 25px;
+  background-color: fuchsia;
+  }
+  
+  p{
+  color:navy;
+  font-size:16px;
+  font-family:"Trebuchet MS", Verdana, Arial, sans-serif;
+  }
+  
+  h1{
+  color:blue;
+  font-family:fantasy;
+  text-align: center;
+  }
+  
+  h2{
+  color:maroon;
+  font-family:cursive;
+  text-align:center;
+  }
+  
+  html {
+  min-height: 100%;
+  background-color: yellow;
+  background-repeat:no-repeat;
+  background-image:url(/Users/krishnakanthmedipally/Desktop/Misc/Misc/base/images/laptop-mobile_small.jpg);
+  background-attachment:fixed;
+  background-position:center;
+  box-shadow: 0 0 8px 4px green inset; }
+  
+  body{
+  background-image:url(/WebContent/YellowStone.jpg);
+  }
