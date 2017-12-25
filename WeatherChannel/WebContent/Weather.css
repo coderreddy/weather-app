@@ -86,7 +86,7 @@
   width: 300px;
   border: 25px solid green;
   padding: 25px;
-  background-color: fuchsia;
+  background-color: white;
   }
   
   p{
@@ -114,7 +114,7 @@
   background-image:url(/Users/krishnakanthmedipally/Desktop/Misc/Misc/base/images/laptop-mobile_small.jpg);
   background-attachment:fixed;
   background-position:center;
-  box-shadow: 0 0 8px 4px green inset; }
+  box-shadow: 0 0 25px 25px green inset; }
   
   body{
   background-image:url(/WebContent/YellowStone.jpg);
