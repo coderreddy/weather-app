@@ -10,16 +10,35 @@
 </head>
 <body>
 	<h1>This is the Weather page</h1>
-	<div>
+	<div style="text-align:center;">
+	<form action="">
+	<input type="text" id="city" style="height: 15px"  value="Dover,NH"><br>
+	<input type="password" id="key" style="height: 15px" value="">
+	</form>
+	<button class="btn1" style="background-color: yellow;"><strong>Get Weather report</strong></button>
+	
+	</div>
+	<br>
+	<div id="current">
+	<h2>Current Weather Details</h2>
+	<p class="last_updated"></p>
+	<p class="temp_c"></p>
+	<p class="temp_f"></p>
+	<p class="condition"></p>
+	<p class="wind_mph"></p>
+	<p class="feelslike_c"></p>
+	<p class="vis_miles"></p>
+	</div>
+	
+	<div id="location">
 	<h2>Location Details</h2>
-	<p class="location-name"><strong>NAME: </strong></p>
-	<p class="location-region"><strong>REGION: </strong></p>
-	<p class="location-country"><strong>COUNTRY: </strong></p>
-	<p class="location-lat"><strong>LATITUDE: </strong></p>
-	<p class="location-lon"><strong>LONGITUDE: </strong></p>
-	<p class="location-tz_id"><strong>TZ_ID: </strong></p>
-	<p class="location-localtime_epoch"><strong>LOCALTIME_EPOCH: </strong></p>
-	<p class="location-localtime"><strong>LOCALTIME: </strong></p>
+	<p class="location-name"></p>
+	<p class="location-region"></p>
+	<p class="location-country"></p>
+	<p class="location-lat"></p>
+	<p class="location-lon"></p>
+	<p class="location-tz_id"></p>
+	<p class="location-localtime"></p>
 	</div>
 </body>
 </html>
