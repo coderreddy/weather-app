@@ -2,9 +2,11 @@
   margin-left: 180px;
   margin-right: 180px;
   width: 300px;
-  border: 25px dotted green;
   padding: 25px;
   background-color: window;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 155%;
   }
   
   div#location{
@@ -12,26 +14,27 @@
   margin-right: 580px;
   margin-bottom:100px;
   width: 300px;
-  border: 25px dotted green;
   padding: 25px;
   background-color: window;
+  background-repeat: no-repeat;
+  background-size: 155%;
   }
   
   p{
-  color:blue;
+  color:lime;
   font-size:16px;
   font-family:"Trebuchet MS", Verdana, Arial, sans-serif;
   }
   
   h1{
-  color:lime;
-  font-family:fantasy;
+  color:orange;
+  font-family:monospace;
   text-align: center;
   }
   
   h2{
-  color:maroon;
-  font-family:cursive;
+  color:orange;
+  font-family:monospace;
   text-align:center;
   }
   
