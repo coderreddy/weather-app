@@ -2,22 +2,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Landing Page</title>
+<title>Get Weather By City</title>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="GetWeather.js"></script>
 <link rel="stylesheet" href="Weather.css">
 </head>
 <body>
-	<h1>This is the Weather page</h1>
+	<h1><b>Weather by City</b></h1>
 	<div style="text-align:center;">
 	<form action="">
-	<input type="text" id="city" style="height: 15px"  value="Dover,NH"><br>
-	<input type="password" id="key" style="height: 15px" value="">
+	   CITY: <input type="text" name="enter city name" id="city" style="height: 15px"  value="">
+	    KEY: <input type="password" id="key" style="height: 15px" value=""><br>
 	</form>
-	<button class="btn1" style="background-color: yellow;"><strong>Get Weather report</strong></button>
-	
+	        <button class="btn1" style="background-color: yellow;"><strong>Get Weather report</strong></button>
 	</div>
+	
 	<br>
 	<div id="current">
 	<h2>Current Weather Details</h2>
@@ -39,6 +39,10 @@
 	<p class="location-lon"></p>
 	<p class="location-tz_id"></p>
 	<p class="location-localtime"></p>
+	</div>
+	
+	<div class="gal">
+	<img src="" style="height: 5%" alt=""/>
 	</div>
 </body>
 </html>
