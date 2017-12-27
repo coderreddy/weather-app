@@ -36,6 +36,7 @@
   color:orange;
   font-family:monospace;
   text-align:center;
+  border: 5px inset grey;
   }
   
   html {
@@ -45,6 +46,3 @@
   background-attachment:fixed;
   background-position:center;
   box-shadow: 0 0 50px 50px olive inset; }
-  
-  body{
-  }

@@ -19,6 +19,10 @@ $(function(){
 		    		{
 		    		return "url(clear.jpg)";
 		    		}
+		    	else if(status === "Mist")
+		    		{
+		    		return "url(Mist.jpg)";
+		    		}
 		    });
 		}
 		
