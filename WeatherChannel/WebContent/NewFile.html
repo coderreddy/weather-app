@@ -4,15 +4,16 @@
 <meta charset="UTF-8">
 <title>Get Weather By City</title>
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="GetWeather.js"></script>
 <link rel="stylesheet" href="Weather.css">
 </head>
 <body>
+	<div id="content">
 	<h1><b>Weather by City</b></h1>
 	<div style="text-align:center;">
 	<form action="">
-	   CITY: <input type="text" name="enter city name" id="city" style="height: 15px"  value="">
+	   CITY: <input type="text" id="city" style="height: 15px"  value="">
 	    KEY: <input type="password" id="key" style="height: 15px" value=""><br>
 	</form>
 	        <button class="btn1" style="background-color: yellow;"><strong>Get Weather report</strong></button>
@@ -43,6 +44,16 @@
 	
 	<div class="gal">
 	<img src="" style="height: 5%" alt=""/>
+	</div>
+	
+	<div class="Fancybox">
+	<h2>This is the Fancy box</h2>
+	<form action="">
+      <input type="email" placeholder="Your Best Email">
+      <input type="submit" value="Sign Me up">
+    </form>
+	</div>
+	
 	</div>
 </body>
 </html>
